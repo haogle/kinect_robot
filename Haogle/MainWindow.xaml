@@ -1,0 +1,43 @@
+﻿<Window x:Class="Haogle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="RobotControlSystem" Height="350" Width="525"
+      >
+    <Window.Resources>
+        <SolidColorBrush x:Key="MediumGreyBrush" Color="#ff6e6e6e"/>
+        <SolidColorBrush x:Key="LightGreyBrush" Color="#ffd2d2d2"/>
+        <SolidColorBrush x:Key="KinectPurpleBrush" Color="#ff52318f"/>
+        <Style TargetType="{x:Type Image}">
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+        </Style>
+    </Window.Resources>
+    <Grid >
+      
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MinWidth="100"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition MinWidth="50"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <DockPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"  Margin="0 0 0 20">
+            <Image DockPanel.Dock="Left" Source="pics\Logo.png" Stretch="Fill" Height="32" Width="81" HorizontalAlignment="Left" Margin="0 10 0 5"/>
+            <TextBlock DockPanel.Dock="Right" Margin="0 0 -1 0" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="{StaticResource MediumGreyBrush}" FontFamily="Segoe UI" FontSize="18">Robot Main</TextBlock>
+            <Image Grid.Column="1" Source="pics\Status.png" Stretch="None" HorizontalAlignment="Center" Margin="0 0 0 5"/>
+        </DockPanel>
+
+        <Button x:Name="Face" Content="face" Click="Face_Click" Grid.Row="1" Grid.Column="0" Margin="15" Foreground="{StaticResource KinectPurpleBrush}" FontFamily="Segoe UI" Background="White" BorderBrush="White" FontSize="18" ></Button>
+        <Button x:Name="TrackMode" Content="TrackMode" Click="TrackMode_Click" Grid.Row="1" Grid.Column="2" Margin="15" Foreground="{StaticResource KinectPurpleBrush}" FontFamily="Segoe UI" Background="White" BorderBrush="White" FontSize="18"></Button>
+        <Button x:Name="SpeechControl" Content="SpeechControl" Click="SpeechControl_Click" Grid.Row="2" Grid.Column="0" Margin="15" Foreground="{StaticResource KinectPurpleBrush}" FontFamily="Segoe UI" Background="White" BorderBrush="White" FontSize="18" ></Button>
+        <Button x:Name="voice" Content="voice" Click="voice_Click" Grid.Row="2" Grid.Column="2" Margin="15" Foreground="{StaticResource KinectPurpleBrush}" FontFamily="Segoe UI" Background="White" BorderBrush="White" FontSize="18"></Button>
+        <Button  x:Name="GreenScreen" Content="Green" Click="GreenScreen_Click"  Grid.Row="3" Grid.Column="0" Margin="15"  Foreground="{StaticResource KinectPurpleBrush}" FontFamily="Segoe UI" Background="White" BorderBrush="White" FontSize="18"></Button>
+        <Button x:Name="avatar" Content="avatar" Click="avatar_Click" Grid.Row="3" Grid.Column="2" Margin="15" Foreground="{StaticResource KinectPurpleBrush}" FontFamily="Segoe UI" Background="White" BorderBrush="White" FontSize="18" ></Button>
+        <Button  x:Name="Help" Content="Help" Click="Help_Click" Grid.Row="4" Grid.Column="2" Margin="15" Foreground="{StaticResource KinectPurpleBrush}" FontFamily="Segoe UI" Background="White" BorderBrush="White" FontSize="18"></Button>
+        <Button x:Name="test" Content="test" Click="Test_Click" Grid.Row="4" Grid.Column="0" Margin="15" Foreground="{StaticResource KinectPurpleBrush}" FontFamily="Segoe UI" Background="White" BorderBrush="White" FontSize="18" ></Button>
+    </Grid>
+</Window>

@@ -1,0 +1,91 @@
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\bin\x64\Debug\Haogle.exe.config
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\bin\x64\Debug\Haogle.exe
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\bin\x64\Debug\Haogle.pdb
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\bin\x64\Debug\Microsoft.Kinect.Face.dll
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\bin\x64\Debug\Microsoft.Kinect.Face.xml
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\Face.baml
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\MainWindow.baml
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\Test.baml
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\Window1.baml
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\Face.g.cs
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\MainWindow.g.cs
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\Test.g.cs
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\Window1.g.cs
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\App.g.cs
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\Haogle_MarkupCompile.cache
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\Haogle.g.resources
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\Haogle.Properties.Resources.resources
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\Haogle.csproj.GenerateResource.Cache
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\Haogle.exe
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\Haogle.pdb
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\Haogle.csprojResolveAssemblyReference.cache
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\TrackMode.baml
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\TrackMode.g.cs
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\SpeechControl.baml
+C:\Users\haogle\Desktop\big boobs\Kinect\Haogle\Haogle\obj\x64\Debug\SpeechControl.g.cs
+C:\Users\haogle\Desktop\Haogle\Haogle\bin\x64\Debug\Haogle.exe.config
+C:\Users\haogle\Desktop\Haogle\Haogle\bin\x64\Debug\Haogle.exe
+C:\Users\haogle\Desktop\Haogle\Haogle\bin\x64\Debug\Haogle.pdb
+C:\Users\haogle\Desktop\Haogle\Haogle\bin\x64\Debug\Microsoft.Kinect.Face.dll
+C:\Users\haogle\Desktop\Haogle\Haogle\bin\x64\Debug\Microsoft.Kinect.Face.xml
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\Face.baml
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\MainWindow.baml
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\SpeechControl.baml
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\Test.baml
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\TrackMode.baml
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\Window1.baml
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\Face.g.cs
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\MainWindow.g.cs
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\SpeechControl.g.cs
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\Test.g.cs
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\TrackMode.g.cs
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\Window1.g.cs
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\App.g.cs
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\Haogle_MarkupCompile.cache
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\Haogle.g.resources
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\Haogle.Properties.Resources.resources
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\Haogle.csproj.GenerateResource.Cache
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\Haogle.exe
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\Haogle.pdb
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\Green.baml
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\Green.g.cs
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\Haogle.csprojResolveAssemblyReference.cache
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\voice.baml
+C:\Users\haogle\Desktop\Haogle\Haogle\obj\x64\Debug\voice.g.cs
+C:\Users\haogle\Desktop\Haogle\Haogle\bin\x64\Debug\NAudio.dll
+C:\Users\haogle\Desktop\Haogle\Haogle\bin\x64\Debug\NAudio.xml
+C:\Users\haogle\Desktop\current\Haogle\Haogle\bin\x64\Debug\Haogle.exe.config
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Haogle.exe
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Haogle.pdb
+C:\Users\haogle\Desktop\current\Haogle\Haogle\bin\x64\Debug\Haogle.exe
+C:\Users\haogle\Desktop\current\Haogle\Haogle\bin\x64\Debug\Haogle.pdb
+C:\Users\haogle\Desktop\current\Haogle\Haogle\bin\x64\Debug\Microsoft.Kinect.Face.dll
+C:\Users\haogle\Desktop\current\Haogle\Haogle\bin\x64\Debug\NAudio.dll
+C:\Users\haogle\Desktop\current\Haogle\Haogle\bin\x64\Debug\Microsoft.Kinect.Face.xml
+C:\Users\haogle\Desktop\current\Haogle\Haogle\bin\x64\Debug\NAudio.xml
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Haogle.csprojResolveAssemblyReference.cache
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Face.baml
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Green.baml
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\MainWindow.baml
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\SpeechControl.baml
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Test.baml
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\TrackMode.baml
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Voice.baml
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Window1.baml
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Face.g.cs
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Green.g.cs
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\MainWindow.g.cs
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\SpeechControl.g.cs
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Test.g.cs
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\TrackMode.g.cs
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Voice.g.cs
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Window1.g.cs
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\App.g.cs
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Haogle_MarkupCompile.cache
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Haogle.g.resources
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Haogle.Properties.Resources.resources
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Haogle.csproj.GenerateResource.Cache
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Help.baml
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\Help.g.cs
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\avatar.baml
+C:\Users\haogle\Desktop\current\Haogle\Haogle\obj\x64\Debug\avatar.g.cs

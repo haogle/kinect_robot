@@ -1,0 +1,18 @@
+﻿<Window x:Class="Haogle.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window1" Height="300" Width="300">
+    
+    <Grid>
+        <TextBlock FontSize="22">
+            <Run>Let it load</Run>
+            <LineBreak/>
+            <Run>Let it load</Run>
+            <LineBreak/>
+            <Run>And thing is loaded </Run>
+            <LineBreak/>
+            <Run>if you sing with me</Run>    
+        </TextBlock>
+       
+    </Grid>
+</Window>

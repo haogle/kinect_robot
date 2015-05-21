@@ -1,0 +1,30 @@
+updated on 28th january
+{"access_token":"24.803fabb93511ae13536db13b8df6cc06.2592000.1424937486.282335-5337828","session_key":"9mzdA5rn9BMLb0+UuXg2TE+2UpTudxtF7R2tlnKc1VDfLbHNfbQyvLyAUobiWE3xHgBFVdZ1RjRH1wun8cltKIuG5ko0","scope":"public audio_voice_assistant_get wise_adapt lebo_resource_base lightservice_public","refresh_token":"25.7aa39251e65d5cabe3407fe0bd762087.315360000.1737705486.282335-5337828","session_secret":"c34a2102ebe450783a6aaf1f00672230","expires_in":2592000}
+
+
+updated on 1st march
+{"access_token":"24.574cf68fee498f6827b40eb7967af8bb.2592000.1427901753.282335-5337828","session_key":"9mzdDoV6KqW9kXqypGq5x8cBUH4pgV696FLPIUa33WpHA\/vl8fQRFbWorvNuLWVNudl3AxSf3h4RsZ8Sn7z7ftIIMrWX","scope":"public audio_voice_assistant_get wise_adapt lebo_resource_base lightservice_public","refresh_token":"25.53c98793a71d47e61d5f0f93145e6e13.315360000.1740669753.282335-5337828","session_secret":"ff1310d0f69e68b4a94fb536da039b5c","expires_in":2592000}
+
+updated on 10th may
+{"access_token":"24.dab4a13db5d359fe8c1b792b4a2343c1.2592000.1433844751.282335-5337828","session_key":"9mzdX7vA9bQbGvkT\/OnVD+UHlPe9QGB5LGL9mzLpzJG69pcoCNC0N\/xJGBm2WD3LJWEn+VtR7b3nnpwCKaYqv8SUpXg1","scope":"public audio_voice_assistant_get wise_adapt lebo_resource_base lightservice_public hetu_basic","refresh_token":"25.de44c591a439431ca7db659ca6094a60.315360000.1746612751.282335-5337828","session_secret":"221d2a4fcf8575e2586c12b9604a19f5","expires_in":2592000}
+
+每一次更新一下就ok
+
+https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=kO4SRbRuMpNpZwrDGHHVUati&client_secret=heCEtOzbWelqIFCtZqAdLwLrj8x2DiG0
+
+
+
+名称：
+Kinect_robot
+Icon：
+
+ID：
+5337828
+API Key：
+kO4SRbRuMpNpZwrDGHHVUati
+Secret Key：
+heCEtOzbWelqIFCtZqAdLwLrj8x2DiG0重置
+创建时间：
+2015-01-26 23:46:20
+更新时间：
+2015-01-27 15:42:38 

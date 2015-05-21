@@ -1,0 +1,167 @@
+﻿<Window x:Class="串口助手.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:port="clr-namespace:System.IO.Ports;assembly=System"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"      
+        Title="机器人调试助手" Height="586" Width="745" Icon="/串口助手;component/Images/Clone%20CD.ico" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <ObjectDataProvider x:Key="enParity" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type Type="port:Parity"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <ObjectDataProvider x:Key="enStopBit" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type Type="port:StopBits"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <x:ArrayExtension x:Key="DataBits" Type="sys:String">
+            <sys:String>6</sys:String>
+            <sys:String>7</sys:String>
+            <sys:String>8</sys:String>
+        </x:ArrayExtension>
+        <x:ArrayExtension x:Key="BaudRate" Type="sys:String">
+            <sys:String>1200</sys:String>
+            <sys:String>2400</sys:String>
+            <sys:String>4800</sys:String>
+            <sys:String>9600</sys:String>
+            <sys:String>14400</sys:String>
+            <sys:String>19200</sys:String>
+            <sys:String>38400</sys:String>
+            <sys:String>56000</sys:String>
+            <sys:String>57600</sys:String>      
+            <sys:String>115200</sys:String>
+        </x:ArrayExtension>
+    </Window.Resources>
+	<Window.Background>
+		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+			<GradientStop Color="#FF1899DC" Offset="0"/>
+			<GradientStop Color="#FF0C9497" Offset="1"/>
+		</LinearGradientBrush>
+	</Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>          
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="164" />  
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>   
+        <GroupBox Header="设置" Margin="3">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="26" />
+                    <RowDefinition Height="26" />
+                    <RowDefinition Height="26" />
+                    <RowDefinition Height="26" />
+                    <RowDefinition Height="26" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />               
+                    <ColumnDefinition Width="69" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Grid.Row="0">端 口：</Label>
+                <ComboBox  ItemsSource="{Binding Port.PortNames}" x:Name="cmbPortName" Grid.Column="1" Grid.Row="0" VerticalAlignment="Center"></ComboBox>
+                <Label Grid.Column="0" Grid.Row="1">波特率：</Label>
+                <ComboBox  ItemsSource="{Binding Source={StaticResource BaudRate}}"  x:Name="cmbBaudRate" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center"></ComboBox>
+                <Label Grid.Column="0" Grid.Row="2">数据位：</Label>
+                <ComboBox SelectedItem="{Binding Port.DataBits}" SelectedIndex="2" ItemsSource="{Binding Source={StaticResource DataBits}}" x:Name="cmbDataBit" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center"></ComboBox>
+                <Label Grid.Column="0" Grid.Row="3">校验位：</Label>
+                <ComboBox SelectedItem="{Binding Port.Parity}" SelectedIndex="0" ItemsSource="{Binding Source={StaticResource enParity}}" x:Name="cmbParity" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center"></ComboBox>
+                <Label Grid.Column="0" Grid.Row="4">停止位：</Label>
+                <ComboBox SelectedItem="{Binding Port.StopBits}" SelectedIndex="1" ItemsSource="{Binding Source={StaticResource enStopBit}}" x:Name="cmbStopBit" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center"></ComboBox>
+                <ToggleButton IsChecked="False" x:Name="btnOpenPort" Grid.ColumnSpan="2" Grid.Row="5" Height="36" Margin="10">
+                    <ToggleButton.Style>
+                        <Style TargetType="ToggleButton">
+                            <Style.Triggers>
+                                <Trigger Property="IsChecked" Value="True">
+                                    <Setter Property="Content" Value="断开机器人" ></Setter>
+                                </Trigger>
+                                <Trigger Property="IsChecked" Value="False">
+                                    <Setter Property="Content" Value="连接机器人" ></Setter>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </ToggleButton.Style>
+                </ToggleButton>
+                <CheckBox IsChecked="{Binding Port.IsHexData}" Content="16进制" Grid.Row="6" VerticalAlignment="Center" Margin="6"/>
+                <CheckBox IsChecked="{Binding Port.IsShowDate}" Content="显示时间" Grid.Row="7" VerticalAlignment="Center" Margin="6"/>
+                <CheckBox IsChecked="{Binding Port.IsShowSend}" Content="显示发送" Grid.Row="8" VerticalAlignment="Center" Margin="6"/>
+                <ToggleButton IsChecked="{Binding IsStop}"  Grid.Column="1" Grid.Row="6" Margin="3" VerticalAlignment="Center">
+                    <ToggleButton.Style>
+                        <Style TargetType="ToggleButton">
+                            <Style.Triggers>
+                                <Trigger Property="IsChecked" Value="True">
+                                    <Setter Property="Content" Value="继 续" ></Setter>
+                                </Trigger>
+                                <Trigger Property="IsChecked" Value="False">
+                                    <Setter Property="Content" Value="暂 停" ></Setter>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </ToggleButton.Style>
+                </ToggleButton>
+                <Button x:Name="btnClearText" Content="清 空" Grid.Column="1" Grid.Row="7" Margin="3" VerticalAlignment="Center"/>
+                <Button x:Name="btnSave" Content="保 存" Grid.Column="1" Grid.Row="8" Margin="3" VerticalAlignment="Center"/>
+            </Grid>
+            
+        </GroupBox>
+       
+        <!--接收-->
+        <GroupBox Header="接收"    Grid.Row="3"  Grid.ColumnSpan="2"  Height="100">
+            <!--<TextBox x:Name="txtRecData" TextWrapping="WrapWithOverflow" VerticalScrollBarVisibility="Auto" Margin="3"/>-->
+            <RichTextBox x:Name="txtRecData" VerticalScrollBarVisibility="Auto" Margin="3" TextChanged="txtRecData_TextChanged"/>
+            
+        </GroupBox>
+
+        <StackPanel Grid.Row="0" Grid.Column="2">
+            <Button x:Name="go" Content="go" Click="go_Click"></Button>
+            <Button x:Name="stop" Content="stop" Click="stop_Click"></Button>
+            <Button x:Name="left" Content="left" Click="left_Click"></Button>
+            <Button x:Name="right" Content="right" Click="right_Click"></Button>
+            <Button x:Name="left_u" Content="left_u" Click="left_u_Click"></Button>
+            <Button x:Name="right_u" Content="right_u" Click="right_u_Click"></Button>
+            
+        </StackPanel>
+
+        <StatusBar Grid.Row="4" Grid.ColumnSpan="3" Background="{x:Null}">
+            <StatusBarItem Margin="10,0">
+                <Button x:Name="btnClearZero" Content=" 清 零 "></Button>
+            </StatusBarItem>
+            <StatusBarItem  Margin="10,3,0,3">
+                <TextBlock Text="接收："/>
+            </StatusBarItem>
+            <StatusBarItem  Margin="0,3,10,3">
+                <TextBlock Text="{Binding Port.ReceiveDataCounter}"/>
+            </StatusBarItem>
+            <StatusBarItem  Margin="10,3,0,3">
+                <TextBlock Text="接收字节："/>
+            </StatusBarItem>
+            <StatusBarItem  Margin="0,3,10,3">
+                <TextBlock Text="{Binding Port.ReceiveBytesCounter}"/>
+            </StatusBarItem>
+            <StatusBarItem  Margin="10,3,0,3">
+                <TextBlock Text="发送："/>
+            </StatusBarItem>
+            <StatusBarItem  Margin="0,3,10,3">
+                <TextBlock Text="{Binding Port.SendDataCounter}" />
+            </StatusBarItem>
+            <StatusBarItem  Margin="10,3,0,3">
+                <TextBlock Text="发送字节："/>
+            </StatusBarItem>
+            <StatusBarItem  Margin="0,3,10,3">
+                <TextBlock Text="{Binding Port.SendBytesCounter}" />
+            </StatusBarItem>
+            
+            
+        </StatusBar>
+    </Grid> 
+</Window>
